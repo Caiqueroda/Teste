@@ -18,11 +18,18 @@ namespace Avaliacao.Controllers
         {
             _context = context;
         }
-
         // GET: Alunoes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Aluno.ToListAsync());
+
+            var alunos = from a in _context.Aluno select a;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                alunos = alunos.Where(s => s.Nome!.Contains(searchString));
+            }
+
+            return View(await alunos.ToListAsync());
         }
 
         // GET: Alunoes/Details/5

@@ -250,3 +250,4 @@ C:\Users\caiqu\OneDrive\Área de Trabalho\AspMVC\Avaliacao\Avaliacao\obj\Debug\n
 C:\Users\caiqu\OneDrive\Área de Trabalho\AspMVC\Avaliacao\Avaliacao\obj\Debug\net8.0\Avaliacao.pdb
 C:\Users\caiqu\OneDrive\Área de Trabalho\AspMVC\Avaliacao\Avaliacao\obj\Debug\net8.0\Avaliacao.genruntimeconfig.cache
 C:\Users\caiqu\OneDrive\Área de Trabalho\AspMVC\Avaliacao\Avaliacao\obj\Debug\net8.0\ref\Avaliacao.dll
+C:\Users\caiqu\OneDrive\Área de Trabalho\AspMVC\Avaliacao\Avaliacao\obj\Debug\net8.0\Avaliacao.sourcelink.json
